@@ -1,0 +1,36 @@
+<!-- Convert DTD TO XML Schema -->
+<!-- use xs:string in place of PCDATA -->
+<!-- The attributes minOccurs and maxOccurs take care of the * and ? in the DTD -->
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="phoneNumbers">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="entries">
+               <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+                       <xs:complexType>
+                         <xs:sequence>
+                           <xs:element name="name">
+                             <xs:complexType>
+                               <xs:sequence>
+                                 <xs:element name="first" type="xs:string"/>
+                                 <xs:element name="middle" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="last" type="xs:string"/>
+                               </xs:sequence>
+                             </xs:complexType>
+                           </xs:element>
+                           <xs:element name="phone" type="xs:string"/>
+                           <xs:element name="city"  type="xs:string" minOccurs="0"/>
+                         </xs:sequence>
+                       </xs:complexType>
+                    <xs:element>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element> 
+        </xs:sequence>
+    </xs:complexType>
+ </xs:element>
+</xs:schema>

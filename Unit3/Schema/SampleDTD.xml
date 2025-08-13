@@ -1,0 +1,39 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE phoneNumbers [
+<!ELEMENT phoneNumbers (title,entries)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT entries (entry*)>
+<!ELEMENT entry (name,phone,city?)>
+<!-- ? means either 0 or 1 -->
+<!ELEMENT name (first,middle?,last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+]>
+
+<phoneNumbers>
+  <title>My Phone Book</title>
+  <entries>
+    <entry>
+      <name>
+        <first>Daenish</first>
+        <middle>Bahadur</middle>
+        <last>Arghali</last>
+      </name>
+      <phone>9811998331</phone>
+      <city>Butwal</city>
+    </entry>
+
+    <entry>
+      <name>
+        <first>Ashik</first>
+        <last>Rana</last>
+      </name>
+      <phone>987-654-3210</phone>
+    </entry>
+
+  </entries>
+</phoneNumbers>

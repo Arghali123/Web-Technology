@@ -1,0 +1,10 @@
+<!ELEMENT books(book+)>
+<!ELEMENT book(name,author+,page,price)>
+<!element name(#PCDATA)>
+<!ELEMENT author(author_name,email)>
+<!ELEMENT author_name(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+<!ELEMENT page(#PCDATA)>
+<!ELEMENT price(#PCDATA)>
+<!ATTLIST book isbn CDATA #REQUIRED>
+<!ATTLIST price currency (npr | usd) "npr">

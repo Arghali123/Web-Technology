@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="bookstyle1.xsl" ?>
+<books>
+  <heading>Welcome to Daenish practice code</heading>
+  <book>
+    <title>Web Programming</title>
+    <author>Daenish</author>
+    <publisher>Wiley</publisher>
+    <edition>3</edition>
+    <price>1000</price>
+  </book>
+
+  <book>
+    <title>Computer Network</title>
+    <author>Aayush</author>
+    <publisher>Pearson</publisher>
+    <edition>8</edition>
+    <price>200</price>
+  </book>
+</books>

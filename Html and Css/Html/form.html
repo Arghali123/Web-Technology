@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of from</title>
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover
+        {
+            background-color: #45a049;
+        }
+
+        .container
+        {
+            border-radius:5px;
+            background-color:#f2f2f2;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Using css to style an Html form</h3>
+    <div class="container">
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            <br>
+    
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            <br>
+    
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="nepal">Nepal</option>
+                <option value="finland">Finland</option>
+            </select>
+    
+            <div class="gender">
+                <h3>Choose your gender</h3>
+                <input type="radio" id="male" name="gender" checked>Male
+                <input type="radio" id="female" name="gender">Female
+                <input type="radio" id="other" name="gender">Other
+            </div>
+    
+            <div>
+                <h3>Faculty</h3>
+                <input type="radio" id="bca" name="faculty" checked>BCA
+                <input type="radio" id="csit" name="faculty">CSIT
+            </div>
+    
+            <div>
+                <label>Semester</label>
+                <select name="semester">
+                    <option value="1">1th semester
+                    <option>
+                    <option value="2">2th semester
+                    <option>
+                    <option value="3">3th semester
+                    <option>
+                    <option value="4">4th semester
+                    <option>
+                    <option value="5">5th semester
+                    <option>
+                    <option value="6">6th semester
+                    <option>
+                    <option value="7">7th semester
+                    <option>
+                    <option value="8">8th semester
+                    <option>
+                </select>
+            </div>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

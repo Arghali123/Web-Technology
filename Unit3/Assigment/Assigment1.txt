@@ -1,0 +1,26 @@
+//Chapter 1,2[Deadline-Sunday(9 March)]
+1.)Describe the use of image map.
+2.)Describe the use of hyperlink tags.
+3.)Difference between tags and elements.
+4.)Describe global attributes of html.
+5.)Describe about one tier,two tier,three tier and n tier architecture with their block diagram.
+6.)Describe how websites works?
+7.)Difference between element and attribute in HTML.
+
+//Chapter 3[Deadline-March 16]
+1.)Difference between XML and HTML.Is XML replacement for HTML.
+2.)Describe about features and advantages of XML explain the structure of XML document.
+3.)Describe the rules for writing well formed XML document.
+4.)What are XML NameSpaces ?Describe it's types.
+5.)Difference between DTD AND XSD?
+
+//LAB 1
+1.)Design a website to demonstrate the use of Form,table,links,iframes and other html tags,styles them using external css.(A4 size paper)[Sunday(9march)]
+2.)Write an XML document for the following:[23 March(lab 2,3,4)]
+   * notes
+   * library
+   * movie
+3.)Write an DTD for phonenumbers.
+4.)Write an XSD for an organization with varies attributes and restriction. Create a respective XML document for it.
+
+

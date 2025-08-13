@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice with css</title>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML:FORM</h1>
+        <h4>Registration Form</h4>
+        <form action="" method="post" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div class="group">
+                <label for="fname">First name</label>
+                <input type="text" name="name" id="fname" placeholder="Enter Full Name" required>
+
+                <label for="mname">Middle Name</label>
+                <input type="text" name="mname" id="mname">
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required>
+            </div>
+
+            <div class="group">
+                <label for="">Gender</label>
+
+                <input type="radio" name="gender" id="male" checked>Male
+                <input type="radio" name="gender" id="Female" >Female
+                <input type="radio" name="gender" id="others" >Others
+            </div>
+
+            <div class="group">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Enter your address">
+            </div>
+
+            <div class="group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="group">
+                <label for="country">Country</label>
+                <select name="name" id="country">
+                  <option value="#" selected>Select Country</option>
+                  <option value="np">Nepal</option>
+                  <option value="ch">China</option>
+                  <option value="in">India</option>
+                  <option value="us">US</option>
+                  <option value="uk">UK</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="pro">Programming</label>
+                <input type="checkbox" value="Java" name="java" id="java">Java
+                <input type="checkbox" value="Php" name="php" id="php">Php
+                <input type="checkbox" value="Python" name="python" id="python">Python
+                <input type="checkbox" value=".Net" name="net" id="net">.Net
+            </div>
+
+            <div class="group">
+                <label for="bio">Bio</label>
+                <textarea rows="3" cols="100" name="bio" id="bio" placeholder="Write Something about you"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="image">Image</label>
+                <input type="file" name="image" id="image">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>User Login Information</legend>
+            <div class="group">
+                <div class="group">
+                    <label for="username">User Name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your user name" required>
+                </div>
+
+                <div class="group">
+                    <label for="userpassword">Password</label>
+                    <input type="password" name="userpassword" id="userpassword" placeholder="*************************" required>
+                </div>
+            </div>
+          </fieldset>
+          <button id="submit">Submit</button>
+          <input type="button" id="cancelbtn" value="Cancel" name="cancel">
+        </form>
+    </div>
+</body>
+</html>

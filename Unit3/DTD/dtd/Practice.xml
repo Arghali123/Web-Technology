@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notes SYSTEM "Practice.dtd">
+<notes>
+  <note type="sms">
+   <to>Jaan<to>
+   <from>daenish<from>
+   <subject>Vetna</subject>
+   <message>vetara k k garna babu</message>
+  </note>
+
+  <note type="email">
+   <to>Sita<to>
+   <to>Gita<to>
+   <from>Ram<from>
+   <subject>Note</subject>
+   <body>Bring my note books</body>
+  </note>
+</notes>

@@ -1,0 +1,15 @@
+<!-- XML Code:with internal DTD for single note -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ELEMENT note(to,from,subject,body)>
+<!ELEMENT to(#PCDATA)>
+<!ELEMENT from(#PCDATA)>
+<!ELEMENT subject(#PCDATA)>
+<!ELEMENT body(#PCDATA)>
+]>
+<note>
+  <to>Niraj</to>
+  <from>Daenish</from>
+  <subject>DSA</subject>
+  <body>Push the code of doubly linked list</body>
+</note>

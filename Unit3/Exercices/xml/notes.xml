@@ -1,0 +1,35 @@
+<!-- XML Code:notes data with multiple note -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<notes>
+  <note>
+   <to>Puran</to>
+   <from>Daenish</from>
+   <subject>Lunch</subject>
+   <body>Call Puran to eat chaumin at the Lunch time</body>
+  </note>
+
+  <note>
+   <to>Aman</to>
+   <from>Daenish</from>
+   <subject>Charger</subject>
+   <body>Bring my phone charger before my phone's battery dies</body>
+  </note>
+</notes>
+
+<!-- XML Code: Using the element and attribute together -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<notes>
+  <note id="1">
+   <to>Puran</to>
+   <from>Daenish</from>
+   <subject>Lunch</subject>
+   <body>Call Puran to eat chaumin at the Lunch time</body>
+  </note>
+
+  <note id="2">
+   <to>Aman</to>
+   <from>Daenish</from>
+   <subject>Charger</subject>
+   <body>Bring my phone charger before my phone's battery dies</body>
+  </note>
+</notes>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors Practice</title>
+    <style>
+        #conatiner .box
+        {
+            float:right;
+            background-color: green;
+        }
+
+        #parent > .child
+        {
+            background-color: red;
+        }
+
+        h2 + p
+        {
+            text-decoration: underline;
+        }
+
+        input[type="button"]
+        {
+            background-color: red;
+        }
+
+        a:hover
+        {
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <!-- class and id selector -->
+
+    <!-- Decendant selector -->
+     <div id="conatiner">
+        <div class="box">
+            Hello this is a Practice of Decendant selector
+        </div>
+     </div>
+
+     <!-- Child combinator -->
+      <!-- <div id="parent">
+        <div class="child">I am child 1</div>
+        <p>I am a paragraph child</p>
+        <div class="child">I am child 2</div>
+        <div class="child">I am child 3</div>
+      </div> -->
+
+      <!-- General Sibling Cominator -->
+       <!-- <div class="generalSibling">
+        <h2>Practice of General Sibling combinator</h2>
+        <p>Hello i am sibling1</p>
+        <span>I am sibling2</span>
+        <p>Hello i am siblin3</p>
+        <p>Hello i am sibling4</p>
+       </div> -->
+
+       <!-- Adjacent Sibling Combinator -->
+         <div class="generalSibling">
+        <h2>Practice of General Sibling combinator</h2>
+        <p>Hello i am sibling1</p>
+        <span>I am sibling2</span>
+        <p>Hello i am siblin3</p>
+        <p>Hello i am sibling4</p>
+       </div>
+
+
+       <!-- Attribute selector -->
+        <input type="text">
+        <input type="button" value="Submit">
+
+        <a href="#">I am using Pseudo class </a>
+      
+</body>
+</html>

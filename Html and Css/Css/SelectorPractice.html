@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Practice</title>
+    <link rel="stylesheet" href="SelectorPractice.css">
+</head>
+<body>
+    <div class="container">
+        <p id="daenish">Daenish</p>
+        <p class="arghali">Arghali</p>
+        <ul>
+            <h1>Names of Friends</h1>
+            <li>Aman</li>
+            <li>Narayan</li>
+            <li>Niraj</li>
+            <li>Partik</li>
+        </ul>
+        <button>Click me</button>
+
+        <div class="hello">
+            <h1>Descendant combinator example</h1>
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+            <section>
+              <!-- not Child but Descendant -->
+              <p>Paragraph 3 in the div (inside a section element).</p>
+            </section>
+            <p>Paragraph 4 in the div.</p>
+          </div>
+
+        <div class="world">
+            <h1>Child combinator example</h1>
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+            <section>
+              <!-- not Child but Descendant -->
+              <p>Paragraph 3 in the div (inside a section element).</p>
+            </section>
+            <p>Paragraph 4 in the div.</p>
+          </div>
+
+        <div class="general_sibling_combinator">
+            <h1>Example of General sibling selector</h1>
+            <p>hehe</p>
+            <p>hehe</p>
+            <p>hehe</p>
+            <p>hehe</p>
+            <h2>meow</h2>
+            <p>hey boy</p>
+        </div>
+
+        <div class="adjacent_sibling_combinator">
+            <h1>Example of Adjacent Sibling combinator</h1>
+            <p>jaan</p>
+            <p>jaan</p>
+            <p>jaan</p>
+            <p>jaan</p>
+            <h2>oi</h2>
+            <p>jaan</p>
+        </div>
+
+        <form>
+            <h1>Attribute Selector</h1>
+            <div class="group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"/>
+            </div>
+
+            <div class="group">
+                <label for="name">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email"/>
+            </div>
+        </form>
+
+        <ul>
+            <h1>Pseudo selector example</h1>
+            <li><a>home</a></li>
+            <li><a>contact</a></li>
+            <li><a>info</a></li>
+        </ul>
+    </div>
+</body>
+</html>

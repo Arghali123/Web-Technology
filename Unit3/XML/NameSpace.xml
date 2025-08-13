@@ -1,0 +1,14 @@
+<root xmlns:h="http://www.way2Tutorial.com/some_url1"
+       xmlns:f="http://www.way2Tutorial.com/some_url2">
+       <h:table>
+         <h:td>Apple</h:td>
+         <h:td>Banana</h:td>
+       </h:table>
+
+       <f:table>
+         <f:name>African Coffee Table</f:name>
+         <f:width>80</f:width>
+         <f:height>120</f:height>
+       </f:table>
+
+</root>

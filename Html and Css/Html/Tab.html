@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td
+          {
+            border:1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+          }
+     </style>
+</head>
+<body>
+    <h1>Students Table</h1>
+    <table>
+      <tr>
+        <th rowspan="2">S.N</th>
+        <th colspan="2">Name</th>
+        <th rowspan="2">Phone</th>
+        <th colspan="2">Address</th>
+      </tr>
+ 
+     <tr>
+       <th>First name</th>
+       <th>Last name</th>  
+       <th>Permaent</th>
+       <th>Temporary</th>
+     </tr>
+     
+     <tr>
+      <td>1</td>
+      <td>Daenish</td>
+      <td>Arghali</td>
+      <td>9811998331</td>
+      <td>Bewora</td>
+      <td>Manigram</td>
+     </tr>
+     
+      <tr>
+       <td>2</td>
+       <td>Ashik</td>
+       <td>Rana</td>
+       <td>9857022192</td>
+       <td>Barauliya</td>
+       <td>Manigram</td>
+     </tr>
+     
+     <tr>
+      <td>3</td>
+      <td>Ayush</td>
+      <td>Bajracharya</td>
+      <td>9749372222</td>
+      <td>Bhairahawa</td>
+      <td>Bhairahawa</td>
+     </tr>
+ 
+    </table>
+     
+    <table border="1" width="100%">
+        <caption>List of Students</caption>
+        
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Daenish</td>
+                <td>Arghali</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Pratik</td>
+                <td>Nepal</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Ashik</td>
+                <td>Rana</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>

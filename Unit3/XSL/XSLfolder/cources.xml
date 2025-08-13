@@ -1,0 +1,31 @@
+<!-- Example of XQuery -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<cources>
+ <course category="JAVA">
+   <title lang="en">Learn Java in 3 months</title>
+   <trainer>Anish dai</trainer>
+   <year>2081</year>
+   <fees>15000</fees>
+ </course>
+
+ <course category="React">
+   <title lang="en">Learn React in 2 months</title>
+   <trainer>Prem dai</trainer>
+   <year>2080</year>
+   <fees>12000</fees>
+ </course>
+
+ <course category="C">
+   <title lang="en">Learn C in 6 months</title>
+   <trainer>Tilak Sir</trainer>
+   <year>2080</year>
+   <fees>25000</fees>
+ </course>
+
+ <course category="Wt">
+   <title lang="en">Learn WT in 6 months</title>
+   <trainer>Susasnt dai</trainer>
+   <year>2081</year>
+   <fees>4000</fees>
+ </course>
+</cources>

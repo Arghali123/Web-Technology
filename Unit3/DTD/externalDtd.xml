@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no">
+<!DOCTYPE tutorials SYSTEM "">
+<tutorials>
+ <tutorial>
+  <name>Daenish</name>
+  <url>https://www.daenish.com/xml/tutorial</url>
+ </tutorial>
+
+ <tutorial>
+  <name>Jaan</name>
+  <url>https://www.jaan/html/tutorial</url>
+ </tutorial>
+</tutorials>

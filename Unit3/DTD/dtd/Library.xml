@@ -1,0 +1,46 @@
+<!-- 
+1.) Library has multiple books with single book.
+2.) Single book bas isbn attribute.
+3.) Book also have name,author,page and price element.
+4.) Books can be written by multiple author with author_name,email.
+5.) Price have currency attribute with npr & usd choice with default npr value.
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "Library.dtd">
+<books>
+  <book isbn="1234">
+    <name>web tech</name>
+    <author>
+      <author_name>Sushant malla dai</author_name>
+      <email>Sushant@gmail.com</email>
+    </author>
+    <page>200</page>
+    <price currency="npr">450</price>
+  </book>
+
+  <book isbn="421">
+    <name>Html and css;web tectech</name>
+    <author>
+      <author_name>Ayush</author_name>
+      <email>Ayush@gmail.com</email>
+    </author>
+
+    <author>
+      <author_name>Daenish</author_name>
+      <email>Daenish@gmail.com</email>
+    </author>
+    <page>900</page>
+    <price currency="npr">1450</price>
+  </book>
+
+  <book isbn="123">
+    <name>OOP in Java</name>
+    <author>
+      <author_name>Ashok dai</author_name>
+      <email>Ashok@gmail.com</email>
+    </author>
+    <page>1020</page>
+    <price currency="usd">145</price>
+  </book>
+</books>

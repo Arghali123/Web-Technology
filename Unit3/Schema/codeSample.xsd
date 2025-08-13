@@ -1,0 +1,14 @@
+<xs:element name="Location">
+  <xs:complexType>
+     <xs:sequence>
+        <xs:element name="city" type="xs:string"/>
+        <xs:element name="state" type="xs:string"/>
+     </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+Corresponding XML:
+<Location>
+ <city>Manigram</city>
+ <state>Procince 5</state>
+</Location>

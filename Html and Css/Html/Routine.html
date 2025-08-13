@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BCA 3rd Semester Routine</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f6fc;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 800px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+
+    td {
+      background-color: #eaf3fc;
+    }
+
+    td[rowspan] {
+      background-color: #ffeb3b;
+      font-weight: bold;
+    }
+
+    tr:last-child td {
+      background-color: #dff0d8;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        margin-bottom: 10px;
+      }
+
+      td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+      }
+
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: 45%;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      td[rowspan] {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BCA 3<sup>rd</sup> Semester Routine</h1>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Day/Time</th>
+          <th>7am-8am</th>
+          <th>8am-9am</th>
+          <th>9am-9:30am</th>
+          <th>9:30am-10:30am</th>
+          <th>10:30am-11:30am</th>
+          <th>11:30am-12:30am</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Day">Sunday</td>
+          <td data-label="7am-8am">Web Tech</td>
+          <td data-label="8am-9am">SAD</td>
+          <td data-label="9am-9:30am" rowspan="6">Break</td>
+          <td data-label="9:30am-10:30am">DSA</td>
+          <td data-label="10:30am-11:30am">Statistics</td>
+          <td data-label="11:30am-12:30am">Java</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Monday</td>
+          <td data-label="7am-8am">DSA</td>
+          <td data-label="8am-9am">Statistics</td>
+          <td data-label="9:30am-10:30am">Java</td>
+          <td data-label="10:30am-11:30am">Web Tech</td>
+          <td data-label="11:30am-12:30am">SAD</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Tuesday</td>
+          <td data-label="7am-8am">Web Tech</td>
+          <td data-label="8am-9am">SAD</td>
+          <td data-label="9:30am-10:30am">DSA</td>
+          <td data-label="10:30am-11:30am">Statistics</td>
+          <td data-label="11:30am-12:30am">Java</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Wednesday</td>
+          <td data-label="7am-8am">DSA</td>
+          <td data-label="8am-9am">Statistics</td>
+          <td data-label="9:30am-10:30am">Java</td>
+          <td data-label="10:30am-11:30am">Web Tech</td>
+          <td data-label="11:30am-12:30am">SAD</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Thursday</td>
+          <td data-label="7am-8am">Web Tech</td>
+          <td data-label="8am-9am">SAD</td>
+          <td data-label="9:30am-10:30am">DSA</td>
+          <td data-label="10:30am-11:30am">Statistics</td>
+          <td data-label="11:30am-12:30am">Java</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Friday</td>
+          <td data-label="7am-8am">DSA</td>
+          <td data-label="8am-9am">Statistics</td>
+          <td data-label="9:30am-10:30am">Java</td>
+          <td data-label="10:30am-11:30am">Web Tech</td>
+          <td data-label="11:30am-12:30am">SAD</td>
+        </tr>
+        <tr>
+          <td data-label="Day">Saturday</td>
+          <td data-label="Holiday" colspan="6">Holiday</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

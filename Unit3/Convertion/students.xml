@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl" ?>
+<students>
+  <student>
+    <name>Daenish</name>
+    <rollno>10</rollno>
+    <score>99</score>
+  </student>
+
+  <student>
+    <name>Ayush</name>
+    <rollno>1</rollno>
+    <score>80</score>
+  </student>
+
+  <student>
+    <name>Ashik</name>
+    <rollno>4</rollno>
+    <score>60</score>
+  </student>
+
+  <student>
+    <name>Niraj</name>
+    <rollno>18</rollno>
+    <score>50</score>
+  </student>
+
+  <student>
+    <name>Dinesh</name>
+    <rollno>13</rollno>
+    <score>82</score>
+  </student>
+</students>

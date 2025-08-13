@@ -1,0 +1,22 @@
+<!-- XSD: -->
+<xs:element name="name">
+  <xs:complexType>
+    <xs:sequence>
+     <xs:element name="first" type="xs:string"/>
+     <xs:element name="middle" type="xs:string" minOccurs="0"/>
+     <xs:element name="last" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="gender" type="xs:string"/>
+  </xs:complexType>
+</xs:element>
+
+<!-- XML: -->
+<name gender="male">
+ <first>Daenish</first>
+ <middle>Bahadur</middle>
+ <last>Arghali</last>
+</name>
+/*
+The attribute specification must lie inside a complexType,but they must fall after the structure defination(xs:sequence,
+xs:all,or xs:choice) in the complexType.
+*/

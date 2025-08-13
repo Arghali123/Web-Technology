@@ -1,0 +1,17 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+ <book category="cooking">
+   <title lang="en">Every day italian</title>
+   <author>Daenish</author>
+   <year></year>
+   <price>100</price>
+ </book>
+
+ <book category="children">
+  <title lang="en">Harry Potter</title>
+  <author>J k Rowling</author>
+  <year>2005</year>
+  <price>1000</price>
+ </book>
+
+</bookstore>

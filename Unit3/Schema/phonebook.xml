@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneNumbers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="phonebook.xsd">
+
+  <entry>
+    <name gender="male">
+      <first>Daenish</first>
+      <middle>Bahadur</middle>
+      <last>Arghali</last>
+    </name>
+    <phone>9811998331</phone>
+    <city>Butwal</city>
+  </entry>
+
+  <entry>
+    <name gender="female">
+      <first>Jaan</first>
+      <middle>Kumari</middle>
+      <last>chaudhary</last>
+    </name>
+    <phone>9800000000</phone>
+  </entry>
+</phoneNumbers>

@@ -1,0 +1,71 @@
+/*Universal selector*/
+*
+{
+    background-color:blue;
+} 
+
+/*Element selector*/
+h1{
+    color: white
+}
+h3{
+    color:red;
+}
+p{
+    color: rgb(58, 91, 9);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:5px;
+}
+
+/* Class selector*/
+.container
+{
+    border:2px solid red;
+}
+
+/*Decendand combinator selector:vitrai samma child vaya ni kam garxa */
+.container p{
+font-size:2rem;
+color: blue;
+}
+
+/* Child combinator:direct child lai matra kam garxa*/
+.container > p
+{
+    font-size: larger;
+}
+/* Id selector*/
+
+/*General sibling selector*/
+p ~ h4
+{
+  font-style: italic;
+}
+
+/*Ajacent sibling selector:najik najik ko ma matra kam garxa*/
+p + h3
+{
+    color: red;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+/* Attribute selector*/
+input[type="text"]
+{
+padding:1rem;
+}
+
+/* pseudo class*/
+a:hover
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Id selector*/
+#mata
+{
+    color:red;
+}

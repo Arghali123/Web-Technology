@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF=8"?>
+<!DOCTYPE notes SYSTEM "ExternalDTD_parameters.dtd">
+<notes>
+  <note type="sms">
+    <to>Ramesh</to>
+    <from>Krishna</from>
+    <subject>This is my first XML</subject>
+    <message>This is my first message from XML</message>
+  </note>
+
+  <note type="email">
+    <to>Sita</to>
+    <to>Ramesh</to>
+    <from>Gita</from>
+    <subject>This is my second XML</subject>
+    <body>This is my second XML message</body>
+  </note>
+</notes>

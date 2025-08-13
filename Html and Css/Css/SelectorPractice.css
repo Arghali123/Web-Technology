@@ -1,0 +1,67 @@
+/*1.)Universal selector */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2.)Id selector */
+#daenish
+{
+  color: red;  
+}
+
+/* 3.)Class selector */
+.arghali
+{
+    color: green;
+}
+
+/* 4.)Element  Selector*/
+button
+{
+    padding: 12px;
+    outline: none;
+}
+
+/* 5.)Decendant combinator:lets you combine two or more selectors so you can be specific in your selection method */
+.hello p 
+{
+    font-weight:900;
+}
+
+/* 6.)Child combinator:A selector that uses the child combinator is similar to a selector that uses decendant combinator
+,except it only targets immediate child elements */
+.world > p
+{
+  text-decoration: line-through;  
+}
+
+/* 7.)General sibling selector: A selector that uses a general sibling combinator matches elements based on sibling relations.
+It means it will select all it's siblings.*/
+.general_sibling_combinator h1 ~ p
+{
+    color: blue;
+}
+
+/* 8.)Adjacent sibling combinator:It is similar to general sibling selector but the difference is that targeted element
+must be immdiate selector. */
+.adjacent_sibling_combinator h1 + p
+{
+    color: green;
+}
+
+/* 9.)Attribute Selector: */
+input[type="email"]
+{
+    background-color: #444;
+    width: 200px;
+}
+
+/* 10.)Pseudo selector */
+ul li a:hover
+{
+    background-color: red;
+}

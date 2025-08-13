@@ -1,0 +1,52 @@
+<!-- 
+XSL Schema:with various restriction and pattern
+ 1.) city has list of city name:Kathmandu,Pokhara,Chitwan,Butwal,Biratnagar.
+ 2.) gender has two value(male,female).
+ 3.) area code has 3 digit value.
+ 4.) phone has xxx-xxxx digit format.
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneNumbers
+xsmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNameSpaceSchemaLocation="variousRestriction.xsd"
+>
+ <title>Phone Numbers</title>
+ <entries>
+   <entry>
+     <name gender="male">
+       <first>Ram</first>
+       <last>Thapa</last>
+     </name>
+     <phone areaCode="319">335-0055</phone>
+     <city>Pokhara</city>
+   </entry>
+
+   <entry>
+     <name gender="male">
+       <first>Hari</first>
+       <last>Sharma</last>
+     </name>
+     <phone>334-9876</phone>
+     <city>Kathmandu</city>
+   </entry>
+
+   <entry>
+     <name gender="female">
+       <first>Rita</first>
+       <middle>Kumari</middle>
+       <last>Tharu</last>
+     </name>
+     <phone areaCode="329">322-7776</phone>
+     <city>Chitwan</city>
+   </entry>
+
+   <entry>
+     <name gender="female">
+       <first>Ritu</first>
+       <last>Shrestha</last>
+     </name>
+     <phone>337-5967</phone>
+   </entry>
+ </entries>
+</phoneNumbers>

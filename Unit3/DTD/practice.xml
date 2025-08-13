@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "practice.dtd">
+<books>
+ <book isbn="11111">
+   <name>Web Tech</name>
+   <author>
+     <author_name>Daenish</author_name>
+     <email>arghaliDaenish@gmail.com</email>
+   </author>
+   <page>110</page>
+   <price currency="npr">500</price>
+ </book>
+
+ <book isbn="22222">
+   <name>C programming</name>
+   <author>
+     <author_name>Tilak sir</author_name>
+     <email>tilak@gmail.com</email>
+   </author>
+
+   <author>
+     <author_name>Niraj sir</author_name>
+     <email>niraj@gmail.com</email>
+   </author>
+   <page>200</page>
+   <price currency="npr">1000</price>
+ </book>
+
+ <book isbn="33333">
+   <name>OOp in Java</name>
+
+   <author>
+     <author_name>Ashok sir</author_name>
+     <email>Ashok@gmail.com</email>
+   </author>
+   <page>120</page>
+   <price currency="usd">300</price>
+ </book>
+
+
+</books>

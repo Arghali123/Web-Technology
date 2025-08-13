@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Root element -->
+  <xs:element name="phoneNumbers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entry" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+
+              <!-- name with gender attribute -->
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="first" type="xs:string"/>
+                    <xs:element name="middle" type="xs:string" minOccurs="0"/>
+                    <xs:element name="last" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="gender" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+
+              <!-- phone with 10-digit restriction -->
+              <xs:element name="phone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="10"/>
+                    <xs:pattern value="\d{10}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <!-- city is optional -->
+              <xs:element name="city" type="xs:string" minOccurs="0"/>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,26 @@
+.decendent .box
+{
+ color: red;
+}
+.child_combinator > .box1
+{
+  color: green;
+}
+
+h3 ~ p{
+    color:blue;
+}
+h4 + p
+{
+    color: yellow;
+}
+
+input[type="submit"]
+{
+    background-color:purple;
+}
+
+a:hover
+{
+    color:skyblue;
+}

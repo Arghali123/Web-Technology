@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF=8" standalone="yes" ?>
+<!DOCTYPE tutorials
+[
+<!ELEMENT tutorials(tutorial)+>
+<!ELEMENT tutorial(name,url)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT url(#PCDATA)>
+]>
+
+<tutorials>
+  <tutorial>
+    <name>XML tutorial</name>
+    <url>https://dffef</url>
+  </tutorial>
+
+  <tutorial>
+    <name>HTML tutorial</name>
+    <url>https://sdwfwif</url>
+  </tutorial>
+</tutorials>

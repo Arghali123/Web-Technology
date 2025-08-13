@@ -1,0 +1,36 @@
+<!-- 
+XML Schema:Phone Entries with multiple entries and attribute ,option element
+  * A contact book has phoneNumbers as root element.
+  * phoneNumber has phone entries.
+  * entries has multiple phone entry.
+  * entry contain name,phone,city.
+  * name have first,middle and last name.
+  * city has option element.
+ -->
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneNumbers
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNameSpaceSchemaLocation="phone.xsd"
+>
+   <title>Phone description</title>
+   <entries>
+     <entry>
+        <name gender="male">
+          <first>Daenish</first>
+          <middle>Bahadur</middle>
+          <last>Arghali</last>
+        </name>
+        <phone>9811998331</phone>
+        <city>Tilottama-5,Manigram</city>
+     </entry>
+
+     <entry>
+        <name gender="female">
+          <first>Priyanka</first>
+          <middle>Kumari</middle>
+          <last>Arghali</last>
+        </name>
+        <phone>9811223431</phone>
+     </entry>
+   </entries>
+</phoneNumbers>
