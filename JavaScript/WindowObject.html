@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window object</title>
+</head>
+<body>
+    <h1>Window object</h1>
+    <input type="button" value="Open new Window" onclick="OpenNewWin('EmbeddingJs.html')"/>
+    <script type="text/javascript">
+       function OpenNewWin(url)
+       {
+        var wid=800;
+        var hei=800;
+        var winFeat="width "+wid+",height "+hei+" ,status,resizable";
+        mywin=window.open(url,"subWind",winFeat);
+       }
+       function display_alert()
+       {
+        alert("Hi,this is alert box");
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice data object</title>
+</head>
+<body>
+    <h1>Date Object</h1>
+    <script type="text/javascript">
+      var date=new Date();
+      document.write(date+"<br>");
+
+      var year=date.getFullYear();
+      document.write(year+"<br>");
+
+      var month=date.getMonth();
+      var months=['Jan','Feb','Mar','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec'];
+      document.write(months[month]+"<br>");
+
+      var month_Date=date.getDate();
+      document.write(month_Date+"<br>");
+
+      var day=date.getDay();
+      var days=['sun','mon','tue','wed','thus','fri','sat'];
+      document.write("Day: "+days[day]+"<br>");
+
+      var hour=date.getHours();
+      var am_pm="AM";
+      if(hour>12)
+      {
+        hour=hour-12;
+        am_pm="pm"
+      }
+      document.write("Time: "+hour+am_pm+":"+date.getMinutes()+"min: "+date.getSeconds()+"sec");
+    </script>
+</body>
+</html>

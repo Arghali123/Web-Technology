@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigator Object</title>
+</head>
+<body>
+    <p id="java_enabled"></p>
+    <p id="language"></p>
+    <p id="platform"></p>
+    <p id="app_version"></p>
+    <p id="user_agent"></p>
+    <p id="product"></p>
+    <p id="app_code_name"></p>
+    <script type="text/javascript">
+      document.getElementById("java_enabled").innerHTML="javaenabled is "+navigator.javaEnabled();
+      document.getElementById("language").innerHTML="navigator.language is "+navigator.language();
+      document.getElementById("platform").innerHTML="navigator.=platform is "+navigator.platform();
+      document.getElementById("app_version").innerHTML="App version is "+navigator.appVersion();
+      document.getElementById("user_agent").innerHTML="User agent is "+navigator.userAgent();
+      document.getElementById("product").innerHTML="navigator.userproduct is"+navigator.product();
+      document.getElementById("app_code_name").innerHTML="navigator.appcodename is "+navigator.appCodeName();
+    
+    </script>
+</body>
+</html>
